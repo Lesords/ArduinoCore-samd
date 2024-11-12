@@ -16,4 +16,5 @@ jobs:
         uses: arduino/arduino-lint-action@v2
         with:
           compliance: specification
+          official: true
           project-type: platform
